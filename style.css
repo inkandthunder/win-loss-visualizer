@@ -322,3 +322,9 @@ button, input, select, textarea {
 .dropdown {
     padding-bottom: 20px;
 }
+
+.logo {
+    float: left;
+    padding-right: 15px;
+    
+}
