@@ -72,6 +72,8 @@ div.article {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+    font-family: "BentonSans", BentonSans, sans-serif;
+    margin-top: -75px;
 }
 #gfx-tooltip .tip,
 #gfx-tooltip .tip-inner {
@@ -151,6 +153,14 @@ div.article {
   color: #323232;
   font-weight: 500;
 }
+
+.team-title {
+  font-family: benton-sans, sans-serif;
+  font-size: 1.17143em;
+  margin-bottom: 0;
+  color: #323232;
+  font-weight: 400;
+}
 .sub-title {
   color: #4d4d4d;
   font-family: benton-sans, sans-serif;
@@ -175,7 +185,7 @@ div.article {
 }
 
 .ds {
-    font-size: 1.71429em;
+    font-size: 1.41429em;
     font-weight: 400;
     font-family: benton-sans, sans-serif;
     margin-top: 0;
@@ -191,6 +201,18 @@ color: #323232;
     line-height: 1.3;
 color: #4d4d4d;
     font-size: 14px;
+}
+
+.team-text-reg {
+    margin-top: 0;
+    margin: 1em 0;
+    margin-top: 1em;
+    font-weight: 300;
+    font-family: benton-sans, sans-serif;
+    line-height: 1.3;
+color: #4d4d4d;
+    font-size: 13px;
+    line-height: .4;
 }
 
 ul {
@@ -327,4 +349,94 @@ button, input, select, textarea {
     float: left;
     padding-right: 15px;
     
+}
+
+.datacontent{
+    background-color: white;
+}
+
+div.media-item.logo {
+    margin-right: 10px;
+    width: 125px;
+}
+
+div.media-item.logo > img {
+    height: 100px;
+    width: 100px;
+}
+
+.teamlogo{
+    width: 100px;
+    
+}
+
+.teaminfo {
+    margin: 0 auto;
+        margin-bottom: 0px;
+    padding-right: 320px;
+   /* min-height: 270px; */
+overflow: hidden;
+margin-bottom: 8px;
+    padding-left: 20px;
+        padding-top:20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.teamtext{
+    float: left;
+}
+
+.highcharts-title{
+    font-family: "Benton Sans","Benton Sans";
+font-weight: 500;
+}
+
+.highcharts-tooltip{
+    font-family: "Benton Sans","Benton Sans";
+font-weight: 500;
+}
+
+.tip-title{
+    font-size:14px;
+}
+h5 {
+    font-size:14px;
+}
+
+.form-control {
+   
+    display:inline-block;
+    float: left;
+
+align-self: center;
+    
+
+margin: .5em 0;
+padding: 13px 30px;
+background-color: #657585;
+border: 0;
+border-radius: 100px;
+cursor: pointer;
+letter-spacing: 1px;
+line-height: .75;
+font-size: 11px;
+font-family: "Benton Sans Medium",Helvetica,sans-serif;
+color: #fff;
+text-transform: uppercase;
+-webkit-appearance: none;
+-webkit-font-smoothing: auto;
+-webkit-transition: background-color .25s,color .35s;
+transition: background-color .25s,color .35s;
+    
+}
+
+
+.btn-link:hover {
+    color: #323232;
+    /*text-decoration: underline; */
+}
+
+.submitbtn{
+    padding-left: 25px;
 }
