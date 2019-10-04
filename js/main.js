@@ -101,3 +101,7 @@ function clearBox(elementID)
     document.getElementById(elementID).innerHTML = "";
 }
 var globalTeam;
+
+        $(document).ready(function () {
+            CHN();
+        })
